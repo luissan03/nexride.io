@@ -1,0 +1,48 @@
+body {
+    border: solid 10px black;
+    background-color: grey;
+}
+
+p{
+    color: black;
+    justify-content: right;
+    font-size: 19px;
+    font-family: Verdana;
+}
+
+h1{
+    color: white;
+    justify-content: right;
+    font-size: 25px;
+    font-family: Verdana;
+}
+
+h2{
+    color: beige;
+    justify-content: right;
+    font-size: 22px;
+    font-family: Verdana;
+}
+.contenedor {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.txt {
+    margin-right: 10px;
+    border: solid 5px white;
+}
+
+.img {
+    width: 600px;
+    height: 300px;
+    cursor: pointer;
+    transition: 6s;
+}
+
+.img:hover {
+    transform: matrix(5, .1, .6, 3, -200, -300);
+    transition: 6s;
+}
+
